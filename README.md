@@ -19,6 +19,7 @@ Project 2 for Data Science II.
 I recommend using [uv](https://docs.astral.sh/uv/getting-started/installation/):
 
 ```bash
+cd king-county-homes
 uv venv
 uv pip install -r requirements.txt
 uv run model.py
@@ -27,6 +28,7 @@ uv run model.py
 Otherwise, just:
 
 ```bash
+cd king-county-homes
 pip install -r requirements.txt
 python3 model.py
 ```
